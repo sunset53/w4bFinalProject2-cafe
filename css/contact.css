@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+/*** This is the Nav Bar ***/
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #C8B2A5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo-area {
+    width: 200px;
+    height: 100px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo-area a:hover img {
+    width: 125px;
+    height: 75px;
+    padding: 4px;
+    border: 3px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    float: right;
+    margin: 0;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 38px;
+    display: inline-block;
+}
+
+nav ul a:hover {
+    padding: 4px;
+    border: 3px solid black;
+    margin: 31px;
+}
+
+/*** This is the columns ***/
+
+.row {
+    position: absolute;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.column1 {
+    background-image: url(/images/musician-small.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    background-size: cover;
+}
+
+.column2 {
+    color: whitesmoke;
+}
+
+
+/*** This is the form ***/
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: whitesmoke;
+    color: black;
+    padding: 3px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px 120px;
+}
+
+label {
+    text-align: right;
+    
+}
+
+.map {
+    margin: 45px;
+}
+
+
+/*** This is the footer ***/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #C8B2A5;
+    color: black;
+    text-align: center;
+    float: left;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 40px 15px;
+}
+
+footer ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    padding: 4px;
+    border: 3px solid black;
+    margin: 33px -7px;
+}

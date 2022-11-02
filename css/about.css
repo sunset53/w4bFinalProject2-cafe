@@ -5,7 +5,7 @@
     font-family: 'Sawarabi Mincho', serif;
 }
 
-/* This is the Nav Bar */
+/*** This is the Nav Bar ***/
 
 nav {
     width: 100%;
@@ -21,8 +21,6 @@ nav {
     height: 100px;
     float: left;
     padding: 10px;
-    /* margin: 10px 38px; */
-    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -37,7 +35,6 @@ nav ul {
     list-style-type: none;
     text-align: center;
     float: right;
-    display: inline-block;
     margin: 0;
 }
 
@@ -56,32 +53,20 @@ nav ul a:hover {
     margin: 31px;
 }
 
+/*** This is the Hero Section ***/
 
-
-/* This is the Hero Section */
-
-.main {
+.hero-section {
     width: 100%;
     height: 500px;
-    /* background-color: #C8B2A5; */
     background-image: url(../images/cafe-bar-view-hero-size.jpg);
-    background-repeat: no repeat;
-    background-position: center;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* "cover" covers the whole area of the section. Contain will display the entire image in the section */
     background-position: center;
     /* this is which part of the image you want to display */
-    /* position: relative; */
     text-align: center;
     padding: 0px;
     margin: 0px;
-}
-
-/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
-
-main img {
-    margin: 0%;
-    padding: 0%;
 }
 
 .hero-text {
@@ -90,11 +75,39 @@ main img {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #7e072bd7;
+    /* color: #7e072bd7; */
+    color: #8B4707;
     font-size: 30px;
+    margin: 0;
 }
 
-/* This is the Footer */
+/*** This is the Story Section ***/
+
+.story-section {
+    width: 100%;
+    height: 485px;
+    background-color: rgb(249, 233, 215);
+}
+
+.story-video {
+    width: 50%;
+    height: 485px;
+    padding: 70px 0px 60px 80px;
+    margin: 0;
+    float: left;
+}
+
+.story-text {
+    width: 50%;
+    height: 450px;
+    color: black;
+    font-size: 21px;
+    padding: 30px 80px 30px 0px;
+    /* margin: 55px 55px 55px 0px; */
+    float: right;
+}
+
+/*** This is the Footer ***/
 
 footer {
     width: 100%;
@@ -107,7 +120,7 @@ footer {
 footer ul li {
     display: inline-block;
     margin: 40px 15px;
-    /* border: 1px solid black; */
+    text-align: center;
 }
 
 footer ul li a {

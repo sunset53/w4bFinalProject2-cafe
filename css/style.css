@@ -2,16 +2,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Sawarabi Mincho', serif;
 }
-
-/* a:hover {
-    padding: 5px;
-    border: 2px solid black;
-}
-
-a:visited {
-    color: #7e072bd7;
-} */
 
 .header {
     width: 100%;
@@ -22,7 +14,7 @@ a:visited {
     text-align: center;
 }
 
-/* This is the Nav Bar */
+/*** This is the Nav Bar ***/
 
 nav {
     width: 100%;
@@ -38,8 +30,6 @@ nav {
     height: 100px;
     float: left;
     padding: 10px;
-    /* margin: 10px 38px; */
-    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -54,7 +44,6 @@ nav ul {
     list-style-type: none;
     text-align: center;
     float: right;
-    display: inline-block;
     margin: 0;
 }
 
@@ -73,28 +62,20 @@ nav ul a:hover {
     margin: 31px;
 }
 
-/* This is the Hero Section */
+/*** This is the Hero Section ***/
 
-.main {
+.hero-section {
     width: 100%;
     height: 500px;
-    /* background-color: #C8B2A5; */
-    background-image: (rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/cafe-tables.jpg);
+    background-image: url(../images/cafe-tables.jpg);
     background-repeat: no repeat;
-    background-position: center;
-    background-size: auto;
-    /* "cover" covers the whole area of the section. Contain will display the entire image in the section */
-    background-position: right top;
+    background-position: 0% 35%;
     /* this is which part of the image you want to display */
-    /* position: relative; */
+    background-size: cover;
+    /* "cover" covers the whole area of the section. Contain will display the entire image in the section */
     text-align: center;
     padding: 0px;
     margin: 0px;
-}
-
-main img {
-    margin: 0%;
-    padding: 0%;
 }
 
 .hero-text {
@@ -103,26 +84,73 @@ main img {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #cdcccf;
+    color: whitesmoke;
     font-size: 30px;
+    margin: 0;
 }
 
 button {
-    background-color: #cdcccf;
+    background-color: whitesmoke;
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 12px;
 }
 
-/* .button-box {
-    width: 100px;
-    height: 
-    border 3px solid #ffffff;
-    background-color: #cdcccf;
-    border: 3px solid #ecb32f;
-} */
+button a {
+    text-decoration: none;
+}
 
-/* This is the Footer */
+/*** This is the Feature Section ***/
+
+.article-section h2 {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+
+.feature {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(249, 233, 215);
+}
+
+.feature a img {
+    display: inline-block;
+    margin: 20px 40px;
+    float: left;
+    border-radius: 20px;
+}
+ 
+.image1 {
+    margin-left: 190px;
+    float: left;
+    clear: right;
+}
+
+.titles {
+    float: left;
+}
+
+.titles ul li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#title1 {
+    padding-left: 280px;
+}
+
+#title2 {
+    padding-left: 210px;
+}
+
+#title3 {
+    padding-left: 172px;
+}
+
+/*** This is the Footer ***/
 
 footer {
     width: 100%;
@@ -135,7 +163,6 @@ footer {
 footer ul li {
     display: inline-block;
     margin: 40px 15px;
-    /* border: 1px solid black; */
 }
 
 footer ul li a {

@@ -177,5 +177,9 @@ footer ul li a:hover {
     margin: 33px -7px;
 }
 
-
+.credits p {
+    color: black;
+    font-size: 2px;
+    text-align: left;
+}
 

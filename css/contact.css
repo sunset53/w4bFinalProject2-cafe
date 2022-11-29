@@ -69,7 +69,7 @@ nav ul a:hover {
 }
 
 .column1 {
-    background-image: url(/images/musician-small.jpg);
+    background-image: url(../images/musician-small.jpg);
     background-repeat: no-repeat;
     background-position: 0% 35%;
     background-size: cover;
